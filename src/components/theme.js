@@ -57,7 +57,6 @@ const theme = createTheme({
                     fontWeight : "bold"
                 },
                 h5 : {
-                    color : "white",
                     fontWeight : "bold"
                 }
             }

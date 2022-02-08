@@ -53,7 +53,6 @@ export default function MasonryImageList() {
             subtitle={item.author}
             actionIcon={
               <IconButton
-                sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
               >
                 <InfoIcon color="secondary" />
               </IconButton>
@@ -77,7 +76,6 @@ export default function MasonryImageList() {
               title={item.title}
               actionIcon={
                 <IconButton href={item.href}
-                  sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
                 >
                   <InfoIcon color="secondary"/>
                 </IconButton>

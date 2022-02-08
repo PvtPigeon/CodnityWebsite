@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 import {
     Box,
-    Link,
-    Typography,
     IconButton,
 }
-from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import {withRouter} from 'react-router-dom';
+from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import {withRouter} from "react-router-dom";
 
 const Drawer = props => {
     const [anchorElNav, setAnchorEl] = React.useState(null);

@@ -38,7 +38,7 @@ function Header() {
             <CssBaseline />
             <Container maxWidth="xl">
                 <Toolbar>
-                <Typography variant = "h5" sx={{flexGrow : 1}}>
+                <Typography variant = "h5" sx={{color : "white", flexGrow : 1}}>
                     Riga Cafe`s
                 </Typography>
                 {isMobile ? (
